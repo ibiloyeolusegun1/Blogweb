@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Custom Fontawesome Icons-->
+    <link rel="stylesheet" href="./css/all.css.css">
+
+    <!--Google Fonts CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+</head>
+<body>
+    
+    <!--==================== Navigation Start ==================-->
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">Bloggli</a>
+            <ul class="nav-items">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign-in.html">Login</a></li>
+                <li class="nav-profile">
+                    <div class="avater">
+                        <img src="images/avater.jpg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="icon-nav" id="open-btn"><i class="fas fa-bars"></i></div>
+            <div class="icon-nav" id="close-btn"><i class="fas fa-times"></i></div>
+        </div>
+    </nav>
+    <!--==================== Navigation End ==================-->
+
+
+    <!--==================== Search Start ==================-->
+    <section class="search-bar">
+        <form action="" class="container search-bar-container">
+           <div>
+                <i class="fas fa-search"></i>
+                <input type="search" name="" placeholder="search">
+           </div>
+           <button type="submit" class="btn">Go</button>
+        </form>
+    </section>
+    <!--==================== Search End ==================-->
+
+
+    <!--==================== Post Start ==================-->
+    <section class="posts">
+        <div class="container posts-container">
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/fruits1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Fruits</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/art1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Art</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review3.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/food1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Food</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review1.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/music1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Music</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review1.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/politcs1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Politics</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/sport1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Sport</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review3.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/tech_and_science1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Technology & Science</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/travel1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Travel</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/wild_life1.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Wild Life</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/art2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Art</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/fruits2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Fruit</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/art4.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Art</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/food2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Food</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/music2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Music</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/politcs2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Politics</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/sport2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Sport</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/tech_and_science2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Technology & Science</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/travel2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Travel</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/wild_life2.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Wild Life</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="post">
+                <div class="post-thumbnail">
+                    <img src="images/art3.jpg" alt="">
+                </div>
+                <div class="post-info">
+                    <a href="" class="category-btn">Art</a>
+                    <h3 class="post-title"><a href="post.html">This you need to know about technology.</a></h3>
+                    <p class="post-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit architecto, dolorem reiciendis voluptas, unde autem deleniti.</p>
+                    <div class="post-author">
+                        <div class="post-author-avater">
+                            <img src="images/review2.png" alt="">
+                        </div>
+                        <div class="post-author-info">
+                            <h5>By: Ibiloye Olusegun</h5>
+                            <small>March 17, 2022 - 6:15</small>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--==================== Post End ==================-->
+
+
+    <!--==================== Category Buttons Start ==================-->
+    <section class="category-buttons">
+        <div class="container category-buttons-conatiner">
+            <a href="" class="category-btn">Category</a>
+            <a href="" class="category-btn">Art</a>
+            <a href="" class="category-btn">Travel</a>
+            <a href="" class="category-btn">Wild Life</a>
+            <a href="" class="category-btn">Science & Technology</a>
+            <a href="" class="category-btn">Fruits</a>
+            <a href="" class="category-btn">Music</a>
+            <a href="" class="category-btn">Food</a>
+        </div>
+    </section>
+    <!--==================== Category Buttons End ==================-->
+
+
+
+    <footer>
+        <div class="container footer-container">
+            <article>
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Wild Life</a></li>
+                    <li><a href="#">Science & Technology</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Travel</a></li>
+                    <li><a href="#">Fruits</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Social Support</a></li>
+                    <li><a href="#">Online Support</a></li>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">Call Numbers</a></li>
+                    <li><a href="#">Location</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Blog</h4>
+                <ul>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Recent</a></li>
+                    <li><a href="#">Safety</a></li>
+                    <li><a href="#">Repair</a></li>
+                    <li><a href="#">Catgories</a></li>
+                </ul>
+            </article>
+            <article>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </article>
+        </div>
+        <div class="footer-socials">
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <small>Copyright &copy; <span>Ibiloye Olusegun</span> 2022 | All right reserved</small>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
